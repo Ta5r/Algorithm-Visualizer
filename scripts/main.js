@@ -85,10 +85,3 @@ function runalgo()
                         break;
     }
 }
-
-/*
-    *****************
-    DONE BY:-   TUMMALA KETHAN
-    E-MAIL:-    tummala.kethan@gmail.com
-    *****************
-*/
