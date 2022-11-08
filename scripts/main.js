@@ -72,16 +72,33 @@ function runalgo()
     switch(this.innerHTML)
     {
         case "Bubble":Bubble();
+                        document.getElementById("TC").innerHTML="N^2";
+                        document.getElementById("SC").innerHTML="1";
                         break;
         case "Selection":Selection_sort();
+        
+                        document.getElementById("TC").innerHTML="N^2";
+                        document.getElementById("SC").innerHTML="1";
                         break;
         case "Insertion":Insertion();
+        
+                        document.getElementById("TC").innerHTML="N^2";
+                        document.getElementById("SC").innerHTML="1";
                         break;
         case "Merge":Merge();
+        
+                        document.getElementById("TC").innerHTML="Nlog(N)";
+                        document.getElementById("SC").innerHTML="N";
                         break;
         case "Quick":Quick();
+        
+                        document.getElementById("TC").innerHTML="N^2";
+                        document.getElementById("SC").innerHTML="N";
                         break;
         case "Heap":Heap();
+        
+                        document.getElementById("TC").innerHTML="N log(N)";
+                        document.getElementById("SC").innerHTML="1";
                         break;
     }
 }
